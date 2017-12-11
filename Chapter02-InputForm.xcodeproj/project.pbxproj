@@ -12,6 +12,8 @@
 		959DEE571FDEBD2B00DA5BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959DEE551FDEBD2B00DA5BD7 /* Main.storyboard */; };
 		959DEE591FDEBD2B00DA5BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959DEE581FDEBD2B00DA5BD7 /* Assets.xcassets */; };
 		959DEE5C1FDEBD2B00DA5BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959DEE5A1FDEBD2B00DA5BD7 /* LaunchScreen.storyboard */; };
+		959DEE641FDECCD300DA5BD7 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959DEE631FDECCD300DA5BD7 /* ReadViewController.swift */; };
+		959DEE661FDED05B00DA5BD7 /* SDMiSaeng.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 959DEE651FDECFF100DA5BD7 /* SDMiSaeng.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		959DEE581FDEBD2B00DA5BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		959DEE5B1FDEBD2B00DA5BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959DEE5D1FDEBD2B00DA5BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959DEE631FDECCD300DA5BD7 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		959DEE651FDECFF100DA5BD7 /* SDMiSaeng.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SDMiSaeng.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		959DEE501FDEBD2B00DA5BD7 /* Chapter02-InputForm */ = {
 			isa = PBXGroup;
 			children = (
+				959DEE651FDECFF100DA5BD7 /* SDMiSaeng.ttf */,
 				959DEE511FDEBD2B00DA5BD7 /* AppDelegate.swift */,
 				959DEE531FDEBD2B00DA5BD7 /* ViewController.swift */,
 				959DEE551FDEBD2B00DA5BD7 /* Main.storyboard */,
 				959DEE581FDEBD2B00DA5BD7 /* Assets.xcassets */,
 				959DEE5A1FDEBD2B00DA5BD7 /* LaunchScreen.storyboard */,
 				959DEE5D1FDEBD2B00DA5BD7 /* Info.plist */,
+				959DEE631FDECCD300DA5BD7 /* ReadViewController.swift */,
 			);
 			path = "Chapter02-InputForm";
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959DEE661FDED05B00DA5BD7 /* SDMiSaeng.ttf in Resources */,
 				959DEE5C1FDEBD2B00DA5BD7 /* LaunchScreen.storyboard in Resources */,
 				959DEE591FDEBD2B00DA5BD7 /* Assets.xcassets in Resources */,
 				959DEE571FDEBD2B00DA5BD7 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				959DEE541FDEBD2B00DA5BD7 /* ViewController.swift in Sources */,
+				959DEE641FDECCD300DA5BD7 /* ReadViewController.swift in Sources */,
 				959DEE521FDEBD2B00DA5BD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RW52R26N;
 				INFOPLIST_FILE = "Chapter02-InputForm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "karrel.hello.Chapter02-InputForm";
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RW52R26N;
 				INFOPLIST_FILE = "Chapter02-InputForm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "karrel.hello.Chapter02-InputForm";
